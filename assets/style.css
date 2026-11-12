@@ -1,0 +1,97 @@
+/* Perilux — perilux.pro. Own brand: deep teal + luminous amber on cream.
+   No Unspoken Smiles branding is used anywhere on this site. */
+:root{
+  --ink:#12211f;
+  --teal:#07332f;
+  --teal-2:#0b4a44;
+  --teal-soft:#e3efec;
+  --amber:#c98a12;
+  --amber-bright:#e8ac2c;
+  --cream:#faf7f1;
+  --card:#ffffff;
+  --line:#d9e2de;
+  --muted:#4c5f5b;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--cream);color:var(--ink);
+  font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  line-height:1.62;font-size:17px;
+}
+a{color:var(--teal-2);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--amber)}
+.wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+
+/* Header */
+.brandbar{background:var(--teal);color:#dcebe7;font-size:.82rem;letter-spacing:.04em}
+.brandbar .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:6px;padding-bottom:6px}
+.brandbar a{color:#f2c96b;text-decoration:none}
+header.site{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:12px;padding-bottom:12px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--teal)}
+.logo strong{font-size:1.35rem;letter-spacing:.02em}
+.logo .tag{display:block;font-size:.72rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+nav.main{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:.95rem}
+nav.main a{text-decoration:none;color:var(--ink);padding:4px 2px}
+nav.main a:hover,nav.main a[aria-current="page"]{color:var(--amber);border-bottom:2px solid var(--amber-bright)}
+
+/* Hero */
+.hero{background:linear-gradient(160deg,var(--teal) 0%,var(--teal-2) 62%,#106055 100%);color:#f4efe4}
+.hero .wrap{padding-top:56px;padding-bottom:52px}
+.eyebrow{letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:var(--amber-bright);margin:0 0 10px}
+.hero h1{font-size:2.6rem;line-height:1.12;margin:0 0 14px;font-weight:700}
+.hero p.lede{font-size:1.18rem;max-width:44rem;margin:0 0 22px;color:#e9e2d2}
+.btnrow{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;background:var(--amber-bright);color:#23180a;font-weight:600;
+  padding:11px 20px;border-radius:999px;text-decoration:none;border:1px solid var(--amber-bright)}
+.btn:hover{background:#f2bc45;color:#23180a}
+.btn.ghost{background:transparent;color:#f4efe4;border-color:#9db8b2}
+.btn.ghost:hover{border-color:var(--amber-bright);color:var(--amber-bright)}
+.btn.dark{background:var(--teal);color:#f4efe4;border-color:var(--teal)}
+.btn.dark:hover{background:var(--teal-2);color:#fff}
+
+/* Demo notice — the standing framing label */
+.notice{background:#fdf3d8;border:1px solid #e5cf8f;border-left:6px solid var(--amber);
+  border-radius:10px;padding:14px 18px;margin:26px 0;font-size:.95rem}
+.notice strong{color:#7a5205}
+.notice p{margin:0}
+
+/* Sections & cards */
+main .wrap{padding-top:10px;padding-bottom:20px}
+section.block{padding:30px 0 6px}
+h2{font-size:1.65rem;color:var(--teal);margin:0 0 8px;line-height:1.25}
+h3{font-size:1.16rem;color:var(--teal);margin:0 0 6px}
+.sub{color:var(--muted);max-width:46rem;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:14px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 20px 16px;box-shadow:0 1px 3px rgba(7,51,47,.06)}
+.card p{margin:0 0 10px}
+.card .kicker{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:700;margin:0 0 6px}
+.card a.more{font-weight:600}
+table{border-collapse:collapse;width:100%;margin:12px 0 20px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;font-size:.96rem}
+th{background:var(--teal-soft);color:var(--teal)}
+ol.steps,ul.clean{margin:8px 0 16px;padding-left:22px}
+ol.steps li,ul.clean li{margin-bottom:7px}
+.src{font-size:.85rem;color:var(--muted)}
+.pill{display:inline-block;background:var(--teal-soft);color:var(--teal);border-radius:999px;
+  padding:2px 11px;font-size:.8rem;font-weight:600;margin:0 6px 6px 0}
+.station{display:flex;gap:16px;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:18px 20px;margin:0 0 14px}
+.station .letter{flex:0 0 52px;height:52px;border-radius:50%;background:var(--teal);color:var(--amber-bright);
+  display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:700}
+.station h3{margin-top:2px}
+figure{margin:18px 0}
+figure svg{width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
+figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:760px){.two{grid-template-columns:1fr}.hero h1{font-size:2rem}}
+
+/* Footer */
+footer.site{background:var(--teal);color:#cfdfda;margin-top:44px}
+footer.site .wrap{padding-top:28px;padding-bottom:30px}
+footer.site a{color:#f2c96b}
+footer.site .fine{font-size:.86rem;color:#9db8b2}
+footer.site nav{display:flex;flex-wrap:wrap;gap:4px 16px;margin:8px 0 14px}

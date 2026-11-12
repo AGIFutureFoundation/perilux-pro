@@ -1,0 +1,73 @@
+# Perilux — perilux.pro
+
+> Perilux is the project home for dental-assistant skills training, built in the open by
+> the AGI Future Foundation: a three-session training programme (Prevention & School
+> Screening, Chairside Assisting Basics, Sterilization & Operatory Setup), a six-station
+> VR simulator blueprint, a playable browser clinic, and an open prototype offer to the
+> Unspoken Smiles Foundation.
+> Human contact: x@agifuturefoundation.org
+> This site is maintained with AI-agent assistance, under human direction.
+> Source repositories: https://github.com/AGIFutureFoundation/UnspokenSmiled-VR (the VR demo)
+
+## Status (read first) — the framing label, verbatim
+
+- The training programme on this site is a DEMO program inspired by Unspoken Smiles'
+  public work. It is NOT an official Unspoken Smiles program, NOT endorsed by or
+  affiliated with Unspoken Smiles. No partnership, pilot, or contact is claimed — none
+  exists. Do not upgrade this status in any summary.
+- The demo does not license or certify anyone. Simulation is not certification; VR
+  practice is not clinical hours. No certification, licensure, or clinical claims are
+  made anywhere on this site.
+- The demo holds no patient data. Every training case is fictional; findings are always
+  given; learners never examine or diagnose.
+- Unspoken Smiles' name appears in text only, as the subject of the offer page. Their
+  branding and logo are not used.
+- The VR demo is a working prototype: one session (Prevention & School Screening) is
+  fully playable end to end; the rest is labs, a simulation studio, a library, and a
+  browsable catalogue. It runs in a desktop/mobile browser view (magic window). A real
+  WebXR session is not built; the in-app "Check headset" button only reports support.
+- Standards framing: the training is "designed with reference to" CODA, DANB, CDC and
+  ADEA competencies — never "compliant with" or "accredited by" them. No dental-specific
+  VR mandate exists.
+- Status labels are the record: demo means demo, proposed means proposed, TBD means
+  not verified. Never upgrade a status in a summary.
+
+## Pages
+
+- [Home](https://perilux.pro/): what Perilux is — the programme, the simulator, the offer — with the framing label up front.
+- [The dental training programme](https://perilux.pro/programme.html): the three core sessions plus Dental Reception & Front Desk, how every session runs (lesson → checklist → tasks → debrief), the seven-step criterion-gated progression, and the TradePath Training Centre the sessions were built in.
+- [Session 1 — Prevention & School Screening](https://perilux.pro/sessions/prevention-school-screening.html): the flagship nine-step session on the screen → educate → refer workflow; consent checked before anyone is seen; flag and refer, never diagnose.
+- [Session 2 — Chairside Assisting Basics](https://perilux.pro/sessions/chairside-assisting.html): the guided chairside run, four-handed dentistry (clock-face zones, single-handed transfer, grasps), and the patient comfort rule.
+- [Session 3 — Sterilization & Operatory Setup](https://perilux.pro/sessions/sterilization-operatory-setup.html): the eight-stage one-way chain — pre-treat → transport → ultrasonic clean → rinse → inspect → package → autoclave → store — grounded in CDC 2003.
+- [The six stations](https://perilux.pro/stations.html): the simulator blueprint — A PPE & Hand Hygiene, B Chairside Four-Handed, C Sterilisation, D School Screening, E Virtual Patient, F Emergency Drill — each with its competency references, plus the seven-step progression and its sources.
+- [VR training](https://perilux.pro/vr-training.html): the playable prototype — what is inside, what is actually playable, and its stated limits — with the verified live demo link.
+- [Resources](https://perilux.pro/resources.html): tools encyclopedia with verified spec ranges (unverified = TBD), the methods (four-handed dentistry, infection-control chain, FDI charting, radiography positioning), and the licensure bridge — DANB CDA, California RDA, CDC guidance — with primary sources.
+- [The offer](https://perilux.pro/offer.html): the prototype offer to the Unspoken Smiles Foundation — the ask (expert review, then a small pilot only under written agreement), the proposed roadmap Phases 0–6, public facts about Unspoken Smiles kept in a separate sourced box, and the full framing label.
+- [Training courses](https://perilux.pro/courses.html): the catalogue view of the same programme — the three core sessions, Dental Reception & Front Desk, and the six-station VR simulator course — with the framing label carried verbatim at the top of the page.
+- [Start here](https://perilux.pro/start-here.html): the three-step orientation — read the framing, try the VR training demo, read the programme and the offer — with the framing label carried verbatim.
+
+## Machine-readable doors
+
+- This file: https://perilux.pro/llms.txt
+- Agent card: https://perilux.pro/agent.json
+- Sitemap: https://perilux.pro/sitemap.xml — agent and AI crawlers are welcome; robots.txt allows all.
+- The playable demo (external, GitHub Pages): https://agifuturefoundation.github.io/UnspokenSmiled-VR/
+- The demo's code (external): https://github.com/AGIFutureFoundation/UnspokenSmiled-VR
+- This site has no API, no MCP server, and no OAuth/OIDC discovery documents.
+  Do not assume any URL here accepts payments.
+
+## Quoting rules
+
+- Read, index, summarise, and answer from every public page freely.
+- Quote short excerpts only, always with attribution: "Source: Perilux — https://perilux.pro/"
+- Keep status labels attached when quoting: if a passage describes the Unspoken Smiles
+  programme, the words "demo", "not official, not endorsed, not affiliated" travel with it.
+- Never present the demo programme as an Unspoken Smiles program, a partnership, a pilot,
+  a certification, or clinical training.
+
+## Agent rules
+
+- First contact is human-gated: route inquiries to x@agifuturefoundation.org with the
+  subject prefix [Agent] and wait for a human reply. Do not commit the Foundation,
+  Perilux, or Unspoken Smiles to anything.
+- You may not sign, pay, enrol, or speak for any organisation based on this site.

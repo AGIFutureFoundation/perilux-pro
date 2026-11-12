@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VR training — the playable clinic — Perilux</title>
+<meta name="description" content="The Unspoken Smiles VR Training prototype: a browser-based 3D dental clinic with a fully playable screening session, two labs, a simulation studio and a learning library. Live demo on GitHub Pages. Prototype — demo only, not official, not endorsed, not affiliated." />
+<link rel="stylesheet" href="assets/style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2307332f'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23e8ac2c'/%3E%3C/svg%3E" />
+</head>
+<body>
+<div class="brandbar"><div class="wrap"><span>Perilux · perilux.pro</span><span>A project of <a href="https://www.agifuturefoundation.org/">AGI Future Foundation</a></span></div></div>
+<header class="site"><div class="wrap">
+  <a class="logo" href="index.html" aria-label="Perilux home">
+    <svg width="34" height="34" viewBox="0 0 32 32" role="img" aria-label="Perilux mark: a gold point of light in a teal ring"><circle cx="16" cy="16" r="14" fill="#07332f"/><circle cx="16" cy="16" r="6" fill="#e8ac2c"/></svg>
+    <span><strong>Perilux</strong><span class="tag">Dental training</span></span>
+  </a>
+  <nav class="main" aria-label="Main">
+    <a href="programme.html">Programme</a>
+    <a href="stations.html">Stations</a>
+    <a href="vr-training.html" aria-current="page">VR training</a>
+    <a href="resources.html">Resources</a>
+    <a href="offer.html">The offer</a>
+  </nav>
+</div></header>
+
+<main><div class="wrap">
+
+  <section class="block">
+    <p class="eyebrow" style="color:var(--amber)">The VR training</p>
+    <h2 style="font-size:2.1rem">A dental clinic you can practise in, in your browser</h2>
+    <p class="sub">The <strong>Unspoken Smiles VR Training</strong> prototype is a browser-based
+    3D dental clinic where learners practise dental assisting, hygiene support, and school
+    screening before ever touching a patient: structured sessions, immediate feedback, and a
+    coach-readable record. It was built by the AGI Future Foundation for the NemulAI × Hack
+    District “Zero to Demo” hackathon, Impact track.</p>
+    <p>
+      <a class="btn" href="https://agifuturefoundation.github.io/UnspokenSmiled-VR/">▶ Open the live demo</a>
+      &nbsp;<a class="btn dark" href="https://github.com/AGIFutureFoundation/UnspokenSmiled-VR">Read the code</a>
+    </p>
+    <p class="src">Live demo verified 2026-11-11: the GitHub Pages site loads and opens the
+    app. No install, no account, no headset needed. The app is a single large page — give it a
+    moment on a slow connection. Nothing is saved: progress lives only while the page is open,
+    and resets on reload, by design.</p>
+  </section>
+
+  <div class="notice" role="note">
+    <p><strong>Prototype — demo only.</strong> This is a demo program inspired by Unspoken
+    Smiles' public work. It is <strong>not an official Unspoken Smiles program, not endorsed by
+    or affiliated with Unspoken Smiles</strong>. No partnership, pilot, or contact is claimed.
+    It is not a licensure, certification, or clinical-training product: simulation is not
+    certification, and VR practice does not count as clinical hours. Cases are fictional; the
+    app holds no patient data.</p>
+  </div>
+
+  <section class="block">
+    <h2>What is inside</h2>
+    <table>
+      <thead><tr><th scope="col">Section</th><th scope="col">What it is</th><th scope="col">Playable?</th></tr></thead>
+      <tbody>
+        <tr><td>3D clinic world + quest</td><td>Navigable clinic in four districts, Coach Mira, a 5-step orientation quest, collectibles, 12 equipment hotspots with specs and safety lines</td><td>Yes — explore + quest</td></tr>
+        <tr><td>Prevention &amp; School Screening</td><td>The flagship session: 9 steps, lesson → checklist → tasks → visual quiz</td><td><strong>Yes — fully playable end to end</strong></td></tr>
+        <tr><td>Simulation Studio</td><td>A brief, 5 decisions scored 2/1/0, a debrief, and a portable run record; complications arrive mid-run at higher difficulties</td><td>Yes</td></tr>
+        <tr><td>Teeth &amp; Calculus Lab</td><td>Study / Quiz / Clean across 32 permanent + 20 primary teeth, FDI notation with US Universal numbers alongside; Clean is tip recognition only</td><td>Yes</td></tr>
+        <tr><td>Equipment Lab</td><td>12 tools to identify, hold, transfer and care for; the 8-stage sterilisation chain; the tray challenge</td><td>Yes</td></tr>
+        <tr><td>Practice Mode vs graded runs</td><td>Sandbox first (hints on, nothing scored), then graded runs where step order is the score</td><td>Yes</td></tr>
+        <tr><td>Learning Library / Fellows' Resource Hub</td><td>Tools encyclopedia, methods, assistant &amp; hygiene learning paths, glossary, printable checklists</td><td>Read + drills</td></tr>
+        <tr><td>Flow State layer</td><td>Clear goals, immediate feedback, adaptive difficulty (85%+ moves up, under 50% moves down) and a Flow Meter with a readout after every run</td><td>Runs through everything</td></tr>
+        <tr><td>Catalogue + in-app wiki</td><td>37 stations, 6 games, 16 eggs, each tied to cited sources — and labelled as it is: only the screening session is fully playable as a session in this app; the rest is a browsable catalogue</td><td>Browsable</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="block">
+    <h2>How it runs today — stated plainly</h2>
+    <ul class="clean">
+      <li><strong>Magic-window view.</strong> The training runs in a desktop or mobile browser view — mouse and touch, no headset, no controllers. This is how it actually runs now.</li>
+      <li><strong>“Check headset” is a check, not a session.</strong> The in-app button only reports whether your browser and device support an immersive-vr WebXR session. It starts no session, and no Quest hardware test has happened. A real WebXR session is Phase 4 work, not yet built.</li>
+      <li><strong>No recorded walkthrough video yet.</strong> A timed 120-second storyboard and a narrated voiceover track exist; the recording itself is still to be made.</li>
+      <li><strong>Badges stay private.</strong> A graded finish can earn a badge shown only on the page, for learner and coach. Never public, never a completion record.</li>
+      <li><strong>Transfer is never marked done.</strong> Every Simulation Studio run carries “Simulation ≠ certification”, and transfer to a real setting is never recorded as complete inside the simulation.</li>
+    </ul>
+    <p>Under the hood, the clinic applies Meta Immersive Web SDK (IWSDK) architecture patterns
+    — grab, locomotion, spatial UI, dual runtime — over vendored Three.js, and says so in its
+    own documentation rather than claiming the full scaffold. The six-station blueprint and
+    seven-step progression behind it are on the <a href="stations.html">Stations page</a>.</p>
+    <p><a class="btn" href="https://agifuturefoundation.github.io/UnspokenSmiled-VR/">▶ Open the live demo</a></p>
+  </section>
+
+</div></main>
+
+<footer class="site"><div class="wrap">
+  <nav aria-label="Footer">
+    <a href="programme.html">Programme</a><a href="stations.html">Stations</a>
+    <a href="vr-training.html">VR training</a><a href="resources.html">Resources</a>
+    <a href="offer.html">The offer</a><a href="llms.txt">llms.txt</a><a href="agent.json">agent.json</a>
+  </nav>
+  <p class="fine">Perilux is a project of the AGI Future Foundation. The Unspoken Smiles training
+  programme shown here is a demo inspired by Unspoken Smiles' public work — not an official
+  Unspoken Smiles program, not endorsed by or affiliated with Unspoken Smiles. No partnership,
+  pilot, or contact is claimed. Simulation is not certification; VR practice is not clinical
+  hours; this site holds no patient data.</p>
+  <p class="fine">Built in the open · <a href="https://github.com/AGIFutureFoundation">github.com/AGIFutureFoundation</a></p>
+</div></footer>
+</body>
+</html>
