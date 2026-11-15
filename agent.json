@@ -21,6 +21,7 @@
   ],
   "citation": "cite:perilux",
   "deployment": "LIVE — merged manifest pushed 2026-11-13 (agent-layer merge pass, approved by Mike 2026-11-13 17:06 PT). This validated manifest is the base; substantive content unique to the earlier hand-written live agent.json is preserved under liveSiteRecord.",
+  "designPass": "2026-11-15 — design + discoverability redesign pushed on Mike's approval (hero after the UnspokenSmiled-VR layout pattern, completed canonical/OG/Twitter/JSON-LD heads on all 11 pages, sibling-network footer mesh, named-crawler robots.txt, OG card asset). This manifest is preserved from the 2026-11-13 agent-layer merge; the redesign's siblings block is merged in below, and llms.txt carries the redesign's network section alongside the appended agent-layer sections.",
   "holding": "agicorp",
   "houseLaw": {
     "approval": "Draft-first, exact-copy: no agent sends, posts, publishes, or submits outward without Mike's approval of the exact version. Nightshift work also requires Bino's approval.",
@@ -132,9 +133,20 @@
   "manifestVersion": "2026-11-13.1",
   "name": "Perilux / Unspoken Smiles",
   "registryEntries": [],
+  "siblings": {
+    "agi_fellowship": "https://agifellowship.church",
+    "agicorp_hub": "https://agicorp.network",
+    "ask_humanity": "https://ask.fellowship.chat",
+    "bioacoustics": "https://bioacoustics.cloud",
+    "builderspace": "https://builderspace.tech",
+    "data_universe_graphs": "https://graphs.agicorp.network",
+    "parent": "https://agifuturefoundation.org",
+    "smartciti_x": "https://smartciti.space",
+    "swarmtriage": "https://triage.agicorp.network"
+  },
   "standard": "AGENT-FRIENDLY-STANDARD.md",
   "summary": "Perilux.pro: dental-training and Unspoken Smiles VR programme pages. EVERY page carries the demo-prototype framing: not official, not endorsed, not affiliated, no certification claims. Training, never certification.",
-  "surface": "Staged agent layer — the live page set lands with the design-system push batch.",
+  "surface": "Live — the design-system push batch landed 2026-11-15 on Mike's approval; the redesigned page set is the live page set.",
   "type": "training-demo",
   "url": "https://perilux.pro"
 }

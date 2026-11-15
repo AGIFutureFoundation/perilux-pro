@@ -46,6 +46,20 @@
 - [Training courses](https://perilux.pro/courses.html): the catalogue view of the same programme — the three core sessions, Dental Reception & Front Desk, and the six-station VR simulator course — with the framing label carried verbatim at the top of the page.
 - [Start here](https://perilux.pro/start-here.html): the three-step orientation — read the framing, try the VR training demo, read the programme and the offer — with the framing label carried verbatim.
 
+## The network — sibling holdings
+
+Perilux is one holding in the agentic network. Its siblings, each with its own site:
+
+- [AGI Future Foundation](https://agifuturefoundation.org) — the venture studio and public-benefit foundation behind the network; Perilux's parent.
+- [AGI Fellowship](https://agifellowship.church) — the church and community.
+- [Ask Humanity](https://ask.fellowship.chat) — the 20-questions interview programme.
+- [BuilderSpace](https://builderspace.tech) — builder nights and the builder tour.
+- [SmartCiti.X](https://smartciti.space) — the smart-city learning platform.
+- [AGI Corp](https://agicorp.network) — the agentic network's hub.
+- [Data Universe](https://graphs.agicorp.network) — the estates' open data as a 3D graph.
+- [SwarmTriage](https://triage.agicorp.network) — the demo-mode triage product.
+- [Bioacoustics](https://bioacoustics.cloud) — the bioacoustics data and research project.
+
 ## Machine-readable doors
 
 - This file: https://perilux.pro/llms.txt
@@ -79,7 +93,7 @@ Appended under the network agent-friendly standard (AGENT-FRIENDLY-STANDARD.md),
 The full house law is embedded as the `houseLaw` block in this site's /agent.json; every interacting agent is expected to read and follow it. Summary:
 - Caps bind the account, never the device or the agent count: email 90/day per mailbox and ≤250 cold/day across the programme; social pacing — one platform at a time, ~2 minutes between same-platform actions, ≤3 posts/account/day, ≤25 actions/platform/day network-wide; first platform warning = full stop on that platform that day.
 - Draft-first, exact-copy approval: no agent sends, posts, publishes, or submits anything outward without Mike's approval of the exact version. Nightshift work additionally requires Bino's approval.
-- Suppression is law: suppressed contacts are locked out of every queue on every surface; suppression is checked before any queue is built and again before any draft. An agent that cannot check suppression does not send — it hands off.
+- Suppression is law: suppressed contacts are locked out of every queue on every surface; suppression is checked before a queue is built and again before any draft. An agent that cannot check suppression does not send — it hands off.
 - Published contacts only: outreach uses published institutional contacts. Pattern/inferred emails are never mailable. The filings graph is never a contact source.
 - Human handoff: anyone who asks for a human, or opens a price/scope conversation beyond published registry prices, leaves the automated thread the same day and is flagged to the human (Mike; Russell Vacanti on Foundation matters; a Fellowship steward on Fellowship matters). Agents state published prices; they never quote custom terms, discounts, or timelines.
 - Evidence labels: claims are labelled VERIFIED / REPORTED / HYPOTHESIS. Filed fact and intended plan are never blended; a nonprofit's tax status is stated only as: California nonprofit corporation, EIN assigned, no IRS determination letter on file.

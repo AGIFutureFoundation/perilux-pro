@@ -95,3 +95,45 @@ footer.site .wrap{padding-top:28px;padding-bottom:30px}
 footer.site a{color:#f2c96b}
 footer.site .fine{font-size:.86rem;color:#9db8b2}
 footer.site nav{display:flex;flex-wrap:wrap;gap:4px 16px;margin:8px 0 14px}
+
+/* ——— 2026-11-15 design pass ———
+   Structural patterns adopted from the UnspokenSmiled-VR reference layout
+   (demo strip + two-column hero with pill tag, stat chips and a captioned
+   concept panel; mono label type; stacked sections; dark-scheme token flip).
+   Patterns only: every colour, word and mark here remains Perilux's own. */
+.eyebrow,.kicker,.nethead{font-family:ui-monospace,"SF Mono","Cascadia Mono",Menlo,Consolas,monospace}
+.pill{display:inline-block;background:rgba(232,172,44,.14);color:var(--amber-bright);
+  border:1px solid rgba(232,172,44,.55);border-radius:999px;padding:4px 13px;
+  font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 4px}
+.chip{border:1px solid #9db8b2;color:#f4efe4;border-radius:999px;padding:5px 13px;font-size:.86rem}
+.chip strong{color:var(--amber-bright);font-weight:700}
+.hero-visual{margin:0}
+.hero-visual .panel{background:#0b4a44;border:1px solid #106055;border-radius:var(--radius);padding:18px}
+.hero-visual .panel svg{width:100%;height:auto;display:block}
+.hero-visual figcaption{color:#9db8b2;font-size:.85rem;margin-top:8px}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+/* Footer network mesh — works on the dark site footer and on light in-main footers */
+.network{border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+footer.site .network{border-top-color:#106055}
+.nethead{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 8px}
+.network .links{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem}
+.network a{text-decoration:none}
+.network a:hover{text-decoration:underline}
+
+/* Dark scheme — full token flip, the reference layout's pattern */
+@media (prefers-color-scheme: dark){
+  body{background:#0d1f1c;color:#e9e6da}
+  a{color:#8fd0c4}
+  header.site{background:#0d1f1c;border-bottom-color:#23423d}
+  nav.main a{color:#e9e6da}
+  .logo{color:#f4efe4}
+  h2,h3{color:#8fd0c4}
+  .card,.station,table{background:#122b27;border-color:#23423d}
+  th{background:#0b4a44;color:#f4efe4}
+  th,td{border-color:#23423d}
+  .sub,.src{color:#a9bcb6}
+  .notice{background:#2b2410;border-color:#6b5518}
+}

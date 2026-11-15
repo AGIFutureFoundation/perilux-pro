@@ -1,4 +1,43 @@
+# Perilux — perilux.pro
+# Search engines and AI agents are welcome on every public page.
+# Machine-readable doors: /llms.txt · /agent.json · /sitemap.xml
+
 User-agent: *
+Allow: /
+
+# Major search crawlers — welcome
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Major AI / agent crawlers — welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://perilux.pro/sitemap.xml
